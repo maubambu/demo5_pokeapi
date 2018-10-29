@@ -1,0 +1,23 @@
+.pokemon-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+    width: 90%;
+    margin: 5% auto;
+    background: red;
+    border-radius: 4px;
+    .pokemon{
+        width: 30%;
+        height: 250px;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+        p{
+            text-transform: capitalize;
+        }
+    }
+}
